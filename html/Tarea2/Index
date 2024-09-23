@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practical Exercise 2</title>
+    <style>
+      .thin-column {
+        width: 30px;
+      }
+      .pokemon-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .pokemon-list li {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Friki Time</h1>
+    <h2>Pokemon List</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th class="thin-column">C1</th>
+          <th class="thin-column">C2</th>
+          <th>Pokemon List</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td><img src="assets/garchomp.png" alt="bulbasaur" width="50px" /></td>
+          <td>Bulbasaur</td>
+          <td>Grass . Poison</td>
+          <td class="thin-column"></td>
+          <td class="thin-column"></td>
+          <td rowspan="3">
+            <ul class="pokemon-list">
+              <li>Pokemon 1</li>
+              <li>Pokemon 2</li>
+              <li>Pokemon 3</li>
+              <li>Pokemon 4</li>
+              <li>Pokemon 5</li>
+              <li>Pokemon 6</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td><img src="assets/garchomp.png" alt="ivysaur" width="50px" /></td>
+          <td>Ivysaur</td>
+          <td>Grass . Poison</td>
+          <td class="thin-column"></td>
+          <td class="thin-column"></td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td><img src="assets/garchomp.png" alt="venusaur" width="50px" /></td>
+          <td>Venusaur</td>
+          <td>Grass . Poison</td>
+          <td class="thin-column"></td>
+          <td class="thin-column"></td>
+        </tr>
+        <tr>
+          <td>004</td>
+          <td><img src="assets/garchomp.png" alt="charmander" width="50px" /></td>
+          <td>Charmander</td>
+          <td>Fire</td>
+          <td class="thin-column"></td>
+          <td class="thin-column"></td>
+        </tr>
+        <tr>
+          <td>005</td>
+          <td><img src="assets/garchomp.png" alt="charmeleon" width="50px" /></td>
+          <td>Charmeleon</td>
+          <td>Fire</td>
+          <td class="thin-column"></td>
+          <td class="thin-column"></td>
+        </tr>
+        <tr>
+          <td>006</td>
+          <td><img src="assets/garchomp.png" alt="charizard" width="50px" /></td>
+          <td>Charizard</td>
+          <td>Fire . Flying</td>
+          <td class="thin-column"></td>
+          <td class="thin-column"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
